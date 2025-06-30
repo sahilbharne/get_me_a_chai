@@ -28,10 +28,7 @@ export default function RootLayout({ children }) {
       >
         <SessionWrapper>
         <Navbar />
-        <div
-          className="min-h-screen bg-[radial-gradient(#e5e7eb_1px,transparent_1px)]
-  [background-size:16px_16px] text-white "
-        >
+       
           {children}
         </div>
         <Footer />
