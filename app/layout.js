@@ -24,8 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="bg-[radial-gradient(#e5e7eb_1px,transparent_1px)]
-  [background-size:16px_16px]"
+        className="bg-black text-white"
       >
         <SessionWrapper>
         <Navbar />
