@@ -8,7 +8,7 @@ const Navbar = () => {
   const [showdropdown, setShowdropdown] = useState(false)
 
   return (
-    <nav className='bg-slate-50 text-white flex justify-between items-center px-4 md:h-16 flex-col md:flex-row'>
+    <nav className='bg-gray-700 text-white flex justify-between items-center px-4 md:h-16 flex-col md:flex-row'>
       <Link className="logo font-bold text-lg flex items-center gap-2" href={"/"}>
         <img src="tea.gif" width={44} alt="logo" />
         <span className="text-black">Get Me a Chai</span>
