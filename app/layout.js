@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       >
         <SessionWrapper>
         <Navbar />
-       
+       <div>
           {children}
         </div>
         <Footer />
